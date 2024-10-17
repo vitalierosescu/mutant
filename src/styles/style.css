@@ -1,0 +1,24 @@
+.line {
+  position: relative;
+}
+.line-mask {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: var(--color--white);
+  opacity: 0.65;
+  height: 100%;
+  width: 100%;
+  z-index: 2;
+}
+
+.hero_h1-wrapper h1 span {
+  position: relative;
+  display: inline-block;
+  transform: translateY(500px);
+}
+
+.hero-scroll_img-overflow,
+.hero-scroll_img_photo {
+  will-change: transform;
+}
